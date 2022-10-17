@@ -52,22 +52,30 @@
 @import "fuentes";
 @import "color";
 
+@mixin tamaño ($ancho,$alto) {
+    width:$ancho;
+    height:$alto;   
+}
+
+@mixin bordes ($bordeext,$bordeint) {
+    margin:$bordeext;
+    padding:$bordeint;   
+}
+
 * {
-    margin: 0;
-    padding: 0;
+    @include bordes (0,0);
     box-sizing: border-box;
 }
 
 
 header {
     nav {
-    width: 100%;
+    @include tamaño(100%,auto);
     background-color:$color-secundario;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: auto;
     padding: 5px;
     }
 
@@ -90,8 +98,7 @@ header {
     margin: 0%;
 
     a {
-    width: 100%;
-    height: auto;
+    @include tamaño(100%,auto );
     text-decoration: none;
     color:$color-primario;
     background-color:$color-terciario;
@@ -122,9 +129,7 @@ main {
         text-align: left;
         font-family: $fuente-primario;
         font-size: 15px;
-        padding: 5px;
-        margin: 10px;
-    
+        @include bordes (10px,5px);
     }
 
 }
@@ -137,8 +142,7 @@ h1 {
     font-size: 50px;
     font-style: oblique;
     font-family: $funte-titulos;
-    padding: 30px;
-    margin: 20px;
+    @include bordes (20px,30px);
     width: 100%;
 }
 
@@ -147,8 +151,7 @@ h1 {
 }
 
 .imagenPcpal {
-    width: 100%;
-    height: 400px;
+    @include tamaño(100%,400px);
     border-radius: 10px;
 }
 
@@ -160,9 +163,8 @@ h1 {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 5px;
+        @include bordes (5px,3px);
         margin-bottom: 55px;
-        padding: 3px;
         border: 2px solid $color-terciario;
         a {
             align-self: flex-end;
@@ -212,8 +214,7 @@ p {
         padding: 5px 0px;
         .box {
             figure {
-            width: 100%;
-            height: 100%;
+            @include tamaño(100%,100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -239,8 +240,7 @@ p {
             a {
             display: inline-block;
             text-decoration: none;
-            width: 45px;
-            height: 45px;
+            @include tamaño(45px,45px);
             line-height: 45px;
             color:$color-detalle;
             margin-right: 10px;
