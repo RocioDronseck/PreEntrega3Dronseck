@@ -49,6 +49,8 @@
       opacity: 1;
     }
 }
+@import "fuentes";
+@import "color";
 
 * {
     margin: 0;
@@ -60,7 +62,7 @@
 header {
     nav {
     width: 100%;
-    background-color: #1C3879;
+    background-color:$color-secundario;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -75,8 +77,8 @@ header {
     }
 }
 #iconoMenu {
-    color: #eae3d2;
-    background-color: #eae3d2;
+    color:$color-primario;
+    background-color: $color-primario;
 }
 
 #menuHorizontal {
@@ -91,12 +93,12 @@ header {
     width: 100%;
     height: auto;
     text-decoration: none;
-    color: #eae3d2;
-    background-color: #607eaa;
+    color:$color-primario;
+    background-color:$color-terciario;
     font-size: 18px;
     padding: 3px 3px;
         &:hover {
-        background-color: #1C3879;
+        background-color:$color-secundario;
     }
     }
 
@@ -112,13 +114,13 @@ header {
 }
 
 main {
-    background-color: #f9f5eb;
+    background-color: $color-detalle;
     a {
-        color: #f9f5eb;
-        background-color: #1C3879;
+        color:$color-detalle;
+        background-color:$color-secundario;
         text-decoration: none;
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $fuente-primario;
         font-size: 15px;
         padding: 5px;
         margin: 10px;
@@ -131,10 +133,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #607eaa;
+    color:$color-terciario;
     font-size: 50px;
     font-style: oblique;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: $funte-titulos;
     padding: 30px;
     margin: 20px;
     width: 100%;
@@ -161,7 +163,7 @@ h1 {
         margin: 5px;
         margin-bottom: 55px;
         padding: 3px;
-        border: 2px solid #607eaa;
+        border: 2px solid $color-terciario;
         a {
             align-self: flex-end;
         }
@@ -169,8 +171,8 @@ h1 {
 }
 
 h2 {
-    color: #607eaa;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:$color-terciario;
+    font-family: $funte-titulos;
     font-size: 30px;
     padding: 10px;
     text-align: center;
@@ -178,7 +180,7 @@ h2 {
 
 p {
     color: #201a0cb0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $fuente-primario;
     line-height: 1.5;
     text-align: justify;
     font-size: 15px;
@@ -198,7 +200,7 @@ p {
 
 .pie-pagina {
     width: 100%;
-    background-color: #1C3879;
+    background-color: $color-secundario;
     margin: 100;
     .grupo-1 {
         width: 100%;
@@ -220,17 +222,17 @@ p {
             }
             }
             h2 {
-                color: #f9f5eb;
+                color: $color-detalle;
                 margin-bottom: 5px;
                 font-size: 15px;
                 text-align: left;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: $funte-titulos;
             
             }
             p {
-                color: #f9f5eb;
+                color: $color-detalle;
                 margin-bottom: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente-primario;
             }
         }
         .red-social {
@@ -240,22 +242,22 @@ p {
             width: 45px;
             height: 45px;
             line-height: 45px;
-            color: #f9f5eb;
+            color:$color-detalle;
             margin-right: 10px;
-            background-color: #607eaa;
+            background-color:$color-terciario;
             text-align: center;
             transition: all 300ms ease;
             &:hover {
-                color: #1C3879;
+                color: $color-secundario;
             }
             }
         }
     }
     .grupo-2 {
-        background-color: #607eaa;
+        background-color: $color-terciario;
         padding: 15px 10px;
         text-align: center;
-        color: #f9f5eb;
+        color: $color-detalle;
         small {
             font-size: 15px;
         }
@@ -276,8 +278,8 @@ p {
 .listaDestino {
     flex: auto;
     font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #1C3879;
+    font-family: $funte-titulos;
+    color: $color-secundario;
     .Prov {
         font-size: 20px;
     }
@@ -301,7 +303,7 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #1C3879;
+    border: 2px solid $color-secundario;
     border-radius: 4px;
 }
 
@@ -310,42 +312,18 @@ textarea {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #1C3879;
+    border: 2px solid $color-secundario;
     border-radius: 4px;
 
 }
 
 form {
     label {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: $funte-titulos;
     font-size: 18px;
     }
 }
 
-@media (max-width:767px) {
-    h1 {
-        text-align: center;
-    }
-    #servicios {
-        display: inline;
-        margin: 60px;
-    }
-    .pie-pagina {
-        .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-        }   
-    }
-    #conteiner {
-        display: inline;
-    }
-    .formulario {
-        justify-content: center;
-        align-items: center;
-    }
-}
-
+@import "responsive"
 
 

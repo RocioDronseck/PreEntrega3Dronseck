@@ -52,14 +52,14 @@
   }
 }
 
-/* line 53, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 55, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 61, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 63, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 header nav {
   width: 100%;
   background-color: #1C3879;
@@ -71,19 +71,19 @@ header nav {
   padding: 5px;
 }
 
-/* line 72, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 74, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 header img {
   margin-right: auto;
   height: 40px;
 }
 
-/* line 77, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 79, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #iconoMenu {
   color: #eae3d2;
   background-color: #eae3d2;
 }
 
-/* line 82, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 84, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #menuHorizontal {
   display: flex;
   list-style-type: none;
@@ -93,7 +93,7 @@ header img {
   margin: 0%;
 }
 
-/* line 90, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 92, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #menuHorizontal a {
   width: 100%;
   height: auto;
@@ -104,28 +104,28 @@ header img {
   padding: 3px 3px;
 }
 
-/* line 98, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 100, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #menuHorizontal a:hover {
   background-color: #1C3879;
 }
 
-/* line 103, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 105, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #menuHorizontal li {
   float: right;
 }
 
-/* line 105, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 107, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #menuHorizontal li a {
   display: block;
   text-align: center;
 }
 
-/* line 114, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 116, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 main {
   background-color: #f9f5eb;
 }
 
-/* line 116, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 118, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 main a {
   color: #f9f5eb;
   background-color: #1C3879;
@@ -137,7 +137,7 @@ main a {
   margin: 10px;
 }
 
-/* line 130, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 132, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 h1 {
   display: flex;
   align-items: center;
@@ -145,32 +145,32 @@ h1 {
   color: #607eaa;
   font-size: 50px;
   font-style: oblique;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 30px;
   margin: 20px;
   width: 100%;
 }
 
-/* line 143, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 145, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .scale-in-hor-center {
   animation: scale-in-hor-center 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-/* line 147, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 149, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .imagenPcpal {
   width: 100%;
   height: 400px;
   border-radius: 10px;
 }
 
-/* line 153, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 155, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #servicios {
   display: flex;
   gap: 5px;
   margin-top: 50px;
 }
 
-/* line 157, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 159, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #servicios div {
   display: flex;
   flex-direction: column;
@@ -181,21 +181,21 @@ h1 {
   border: 2px solid #607eaa;
 }
 
-/* line 165, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 167, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #servicios div a {
   align-self: flex-end;
 }
 
-/* line 171, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 173, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 h2 {
   color: #607eaa;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
   padding: 10px;
   text-align: center;
 }
 
-/* line 179, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 181, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 p {
   color: #201a0cb0;
   font-family: Arial, Helvetica, sans-serif;
@@ -206,24 +206,24 @@ p {
   flex-grow: 1;
 }
 
-/* line 190, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 192, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .slide-top:hover {
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-/* line 195, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 197, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .roll-in-left {
   animation: roll-in-left 2s ease-out both;
 }
 
-/* line 199, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 201, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina {
   width: 100%;
   background-color: #1C3879;
   margin: 100;
 }
 
-/* line 203, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 205, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
@@ -234,7 +234,7 @@ p {
   padding: 5px 0px;
 }
 
-/* line 212, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 214, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
   height: 100%;
@@ -243,28 +243,28 @@ p {
   align-items: center;
 }
 
-/* line 218, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 220, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .box figure img {
   width: 50px;
 }
 
-/* line 222, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 224, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .box h2 {
   color: #f9f5eb;
   margin-bottom: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-/* line 230, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 232, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .box p {
   color: #f9f5eb;
   margin-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 237, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 239, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
@@ -278,12 +278,12 @@ p {
   transition: all 300ms ease;
 }
 
-/* line 248, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 250, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-1 .red-social a:hover {
   color: #1C3879;
 }
 
-/* line 254, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 256, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-2 {
   background-color: #607eaa;
   padding: 15px 10px;
@@ -291,17 +291,17 @@ p {
   color: #f9f5eb;
 }
 
-/* line 259, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 261, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .pie-pagina .grupo-2 small {
   font-size: 15px;
 }
 
-/* line 265, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 267, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .izquierda {
   text-align: left;
 }
 
-/* line 269, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 271, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 #conteiner {
   display: flex;
   align-items: center;
@@ -309,25 +309,25 @@ p {
   flex-grow: 1;
 }
 
-/* line 276, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 278, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .listaDestino {
   flex: auto;
   font-size: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #1C3879;
 }
 
-/* line 281, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 283, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .listaDestino .Prov {
   font-size: 20px;
 }
 
-/* line 286, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 288, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .tracking-in-expand-fwd {
   animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-/* line 291, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 293, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 .formulario {
   margin: 15px;
   width: 100%;
@@ -336,7 +336,7 @@ p {
   flex-direction: column;
 }
 
-/* line 299, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 301, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 input {
   width: 50%;
   padding: 12px 20px;
@@ -346,7 +346,7 @@ input {
   border-radius: 4px;
 }
 
-/* line 308, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 310, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 textarea {
   width: 50%;
   padding: 12px 20px;
@@ -356,34 +356,34 @@ textarea {
   border-radius: 4px;
 }
 
-/* line 319, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+/* line 321, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
 form label {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
 }
 
 @media (max-width: 767px) {
-  /* line 326, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+  /* line 2, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/_responsive.scss */
   h1 {
     text-align: center;
   }
-  /* line 329, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+  /* line 5, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/_responsive.scss */
   #servicios {
     display: inline;
     margin: 60px;
   }
-  /* line 334, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+  /* line 10, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/_responsive.scss */
   .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
   }
-  /* line 341, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+  /* line 17, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/_responsive.scss */
   #conteiner {
     display: inline;
   }
-  /* line 344, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/Estilo.scss */
+  /* line 20, ../../Desktop/Progamacion Coder/PreEntrega3Dronseck/scss/_responsive.scss */
   .formulario {
     justify-content: center;
     align-items: center;
